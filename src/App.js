@@ -2,6 +2,7 @@ import React, { useMemo, useState, useEffect } from 'react';
 import Table from "./Table";
 import './App.css';
 import axios from 'axios';
+import { useTable } from "react-table"
 
 const Genres = ({ values }) => {
   return (
