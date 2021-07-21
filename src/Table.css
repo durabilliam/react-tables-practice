@@ -1,5 +1,5 @@
 table {
-  border-collapse: collapse;
+  border: 1px black;
   width: 100%;
   }
   
@@ -7,5 +7,10 @@ table {
   text-align: left;
   padding: 8px;
   }
-  
+
   tr:nth-child(even) {background-color: #f2f2f2;}
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
